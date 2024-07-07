@@ -10,4 +10,10 @@ function checkword() {
     }
 
     var thirdword = words[2];
+
+    if (thirdword.startsWith(wordtocheck)) {
+        alert(`The third word "${thirdword}" starts with "${wordtocheck}".`);
+    } else {
+        alert(`The third word "${thirdword}" does not  starts with "${wordtocheck}".`);
+    }
 }
