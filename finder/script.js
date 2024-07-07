@@ -1,8 +1,7 @@
-function checkword() {
-    var text = prompt("Enter the text");
+var text = prompt("Enter the text");
     var wordtocheck = prompt("Enter the word for check");
-    var result = alert();
 
+    function checkword() {
     var words = text.split(/\s+/);
 
     if (words.length < 3) {
@@ -17,3 +16,6 @@ function checkword() {
         alert(`The third word "${thirdword}" does not  starts with "${wordtocheck}".`);
     }
 }
+
+var result = checkword();
+// alert(result);
