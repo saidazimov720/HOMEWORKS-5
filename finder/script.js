@@ -8,4 +8,6 @@ function checkword() {
     if (words.length < 3) {
         alert("The text does not contain at least three words");
     }
+
+    var thirdword = words[2];
 }
