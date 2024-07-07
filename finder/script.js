@@ -12,7 +12,6 @@
     } else {
         wordtochecklower = wordtocheck.toUpperCase();
         var thirdword = words[2].toUpperCase();
-
     }
     if (thirdword.startsWith(wordtochecklower)) {
         alert(`The third word "${thirdword}" starts with "${wordtochecklower}".`);
