@@ -1,4 +1,4 @@
-var text = prompt("Enter the text");
+    var text = prompt("Enter the text");
     var wordtocheck = prompt("Enter the word for check");
 
     function checkword() {
