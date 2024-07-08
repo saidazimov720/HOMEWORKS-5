@@ -25,7 +25,11 @@ function formatDate(date, format) {
         return parts[2] + "-" + parts[1] + "-" + parts[0];
     } else if (format === "MM-DD-YYYY") {
         return parts[2] + "-" + parts[0] + "-" + parts[1];
-    } else {
+    }
+    else if (format === "YYY-MM-DD") {
+        return parts[0] + "-" + parts[1] + "-" + parts[2];
+    }
+     else {
         return date; 
     }
 }
