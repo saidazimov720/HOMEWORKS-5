@@ -20,4 +20,3 @@
     }
 }
 var result = checkword();
-// alert(result);
